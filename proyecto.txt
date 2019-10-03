@@ -1,0 +1,64 @@
+invitados_platzi
+
+
+crear repositorio para el proyecto a desarrollar
+	invitar a mi compañero
+	crear ramas
+	crear un pull request a master
+	REVISAR 
+	unir los codigos a master
+
+
+restaurante
+creacion de productos
+	categorias
+		sub categoria
+			producto
+				precio
+				fotografias
+				colores
+				tamaños
+	carrito de compra
+	registo de usario(cliente)
+
+	Crear productos
+	Mantenimiento de Inventari
+	Pantalla Principal 
+		productos a posicionar
+		navegacion y filtros
+
+Posibles Nombres sitio		
+coMarket
+co-Market
+MarketCo
+compranDo
+
+Alimentos
+Turismo
+	
+Tecnologia
+
+cabecera
+	logo registo login buscar carrito favoritos
+
+navegacion de categorias
+	izquierda de la pantalla
+carrusel principal
+	a la derecha de navegacion categorias
+	promocionar empresa
+ofertas
+categorias
+top 20
+
+Manuel
+	header 
+	categorias
+	login
+Carlos
+	carrusel 
+	footer
+	registro
+
+
+	
+
