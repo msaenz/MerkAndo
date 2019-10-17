@@ -4,83 +4,167 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mercando</title>
+  <title>Kuru Music</title>
   <link rel="stylesheet" href="./src/assets/styles/components/Header.css">
-  <link rel="stylesheet" href="./src/assets/styles/components/Login.css">
 </head>
 <body>
   <header class="header">
-    <img tabindex="0" class="header__img" src="./src/assets/static/logo_kuru.png" alt="Logo e-commerce co-market">
-    <div class="header__search">
-      <input class="header__search--input" type="text" placeholder="Qué estas buscando?"/>
-    </div>
-    <div class="header__menu">
-      <div class="header__menu--profile">
-        <img src="./src//assets/static/user-icon.png"  alt="icono de usuario">
-        <p>Perfil</p>
+    <div class="header__content">
+      <img tabindex="0" class="header__content-logo" src="./src/assets/static/logo_kuru1.png" alt="Logo e-commerce">
+      <div class="header__content__search">
+        <input class="header__content__search--input" type="text" placeholder="Qué estas buscando?"/>
       </div>
-      <ul>
-        <li><a href="#">Cuenta</a></li>
-        <li><a href="#">Cerrar Sesión</a></li>
-      </ul>
+      <div class="header__content__profile">
+        <img src="./src//assets/static/add-user.png"  alt="icono de Registro">
+        <img src="./src//assets/static/log-in.png"  alt="icono de Login">
+        <img src="./src//assets/static/cart.png"  alt="icono de Carrito">
+      </div>
     </div>
-    <div class="header__order">
-      <img class="header__order--img" src="./src/assets/static/carrito.png" alt="Logo carrito de compras">
-    </div>
-  </header>  
-  <nav class="siteNav">
-    <ul class="category">
-      <li class="category__item">
-        <a href="">Eventos</a>
-      </li>
-      <li class="category__item">
-        <a href="">
-          Música
-        </a>
-      </li>
-      <li class="category__item">
-        <a href="">
-            Tienda
-        </a>        
-      </li>
+    <ul class="header__content__menu">
+      <li class="header__content__menu-item">Eventos</li>
+      <li class="header__content__menu-item">Música</li>
+      <li class="header__content__menu-item">Tienda</li>
+      <li class="header__content__menu-item">Contact</li>
     </ul>
-  </nav>
   </header>
-  <main class="container">
-    <video class="movie" controls autoplay>
-       <source src="https://youtu.be/jDhtfE9CNcE"/>
-    </video>
-  </main>
-  <section class="categorias">
-    <div class="categorias__container">
-      <div class="categorias-item">
-        <div class="productos-item__details">
-          <img class="productos-item__img" src="https://i0.wp.com/ae01.alicdn.com/kf/HTB1DhWXSVXXXXb_XpXXq6xXFXXXZ/Juego-de-bater%C3%ADa-de-5-piezas-Junior-instrumentos-musicales-de-percusi%C3%B3n-con-palos-de-tambor.jpg_350x350.jpg" alt=""  />
-          <p class="productos-item__details--nombre">PRODUCTO</p>
-          <p class="productos-item__details--valor">$ 999 USD</p>
+  <div class="container">
+    
+    <section class="news">
+      <h1>News </h1>
+      <div class="news__container">
+  
+        <div class="news-item">
+          <img class="news-item__img" src="./src/assets/covers/la serenata portada 1.png"  alt="La Serenata" />
+          <!-- <video controls preload="none" poster="./src/assets/covers/la serenata portada 1.png">
+            <source src="./src/assets/videos/La serenata Videoclip Oficial.mp4" type="video/mp4">
+          </video> -->
+          <div class="news-item__details">
+            <div>
+              <Link to="./src/"/>
+                <img
+                  class='news-item__details--img'
+                  src="./src/assets/static/play-icon.png"
+                  alt="Play Music"
+                />
+              </Link>            
+            </div>
+            <p class="news-item__details--title">La Serenata</p>
+            <p class="news-item__details--subtitle">
+              Servidores de la Madre Tierra
+            </p>
+          </div>
         </div>
+
+        <div class="news-item">
+          <img class="news-item__img" src="./src/assets/covers/asteroid anapoima.jpg"  alt="Entrada Anapoima" />
+          <video controls src="./src/assets/videos/Entrada Anapoiland.mov">Anapoima </video>
+          <div class="news-item__details">
+            <div>
+                <img
+                  class='news-item__details--img'
+                  src="./src/assets/static/play-icon.png"
+                  alt="Play Music"
+                  onclick=""
+                />
+            </div>
+            <p class="news-item__details--title">Conoce Anapoima</p>
+            <p class="news-item__details--subtitle">
+              Kuru Studio en Anapoima
+            </p>
+          </div>
+        </div>
+      
+        <div class="news-item">
+            <img class="news-item__img" src="./src/assets/covers/evokando.jpg"  alt="Evokando Music" />
+            <div class="news-item__details">
+              <p class="news-item__details--title">Evokando</p>
+              <p class="news-item__details--subtitle">
+                Banda de Reggae Music
+              </p>
+            </div>
+          </div>
+
+          <div class="news-item">
+            <video controls preload="none" poster="./src/assets/covers/la serenata portada 1.png">
+              <source src="./src/assets/videos/La serenata Videoclip Oficial.mp4" type="video/mp4">
+            </video>
+            <p class="news-item__details--title">La Serenata</p>
+            <p class="news-item__details--subtitle">
+              Servidores de la Madre Tierra
+            </p>
+          </div>
+
       </div>
-      <div class="categorias-item">
-        <div class="productos-item__details">
-          <img class="productos-item__img" src="https://i0.wp.com/ae01.alicdn.com/kf/HTB1DhWXSVXXXXb_XpXXq6xXFXXXZ/Juego-de-bater%C3%ADa-de-5-piezas-Junior-instrumentos-musicales-de-percusi%C3%B3n-con-palos-de-tambor.jpg_350x350.jpg" alt=""  />
-          <p class="productos-item__details--nombre">PRODUCTO</p>
-          <p class="productos-item__details--valor">$ 999 USD</p>
+    </section> 
+    
+    <h1>Categories </h1>
+    <div class="category">
+      <article class="Card">
+        <img src="./src/assets/static/categoria1.jpeg" />
+        <h2>Eventos<span> Aire Libre </span></h2>
+      </article>   
+      <article class="Card">
+        <img src="./src/assets/static/categoria2.jpeg" />
+        <h2>Música<span> Instrumental </span></h2>
+      </article>   
+      <article class="Card">
+        <img src="./src/assets/static/categoria3.jpeg" />
+        <h2>Tienda<span> Ropa </span></h2>
+      </article>   
+    </div>
+
+    <h1>Offers </h1>
+    <div class="offers">
+      <div class="Products-item" >
+        <img src="https://arepa.s3.amazonaws.com/camiseta.png"  alt="Camiseta"" />
+        <div class="Products-item-info">
+          <h2>
+            Camiseta
+            <span>
+              $
+              25
+            </span>
+          </h2>
+          <p>Camiseta Platzi Conf 2019</p>
         </div>
-      </div>
-      <div class="categorias-item">
-        <div class="productos-item__details">
-          <img class="productos-item__img" src="https://i0.wp.com/ae01.alicdn.com/kf/HTB1DhWXSVXXXXb_XpXXq6xXFXXXZ/Juego-de-bater%C3%ADa-de-5-piezas-Junior-instrumentos-musicales-de-percusi%C3%B3n-con-palos-de-tambor.jpg_350x350.jpg" alt=""  />
-          <p class="productos-item__details--nombre">PRODUCTO</p>
-          <p class="productos-item__details--valor">$ 999 USD</p>
-        </div>
+        <button type="button" onClick="Comprar">Comprar</button>
       </div>
 
-    </div>
-  </section>
+      <div class="Products-item" >
+        <img src="https://arepa.s3.amazonaws.com/pin.png"  alt="Camiseta"" />
+        <div class="Products-item-info">
+          <h2>
+            Camiseta
+            <span>
+              $
+              25
+            </span>
+          </h2>
+          <p>Camiseta Platzi Conf 2019</p>
+        </div>
+        <button type="button" onClick="Comprar">Comprar</button>
+      </div>
+  
+      <div class="Products-item" >
+        <img src="https://arepa.s3.amazonaws.com/stickers2.png"  alt="Camiseta"" />
+        <div class="Products-item-info">
+          <h2>
+            Camiseta
+            <span>
+              $
+              25
+            </span>
+          </h2>
+          <p>Camiseta Platzi Conf 2019</p>
+        </div>
+        <button type="button" onClick="Comprar">Comprar</button>
+      </div>
+  </div>
+
   <footer class="footer">
-    <a href="#">Términos de Uso</a>
-    <a href="#">Declaración de Privacidad</a>
-    <a href="#">Centro de Ayuda</a>
-  </footer>  
+      <a href="#">Términos de Uso</a>
+      <a href="#">Declaración de Privacidad</a>
+      <a href="#">Centro de Ayuda</a>
+    </footer>  
 </body>
 </html>
