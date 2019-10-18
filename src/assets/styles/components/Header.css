@@ -88,6 +88,7 @@ body {
   /* height: inherit; */
   flex-direction: column;
   justify-content: space-around;
+  margin:0 40px;
 }
 
 .category {
@@ -105,6 +106,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 0 5px;
 }
 
 .footer{
@@ -170,7 +172,7 @@ a {
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
   border-radius: 5px;
-  margin: 0 0 20px 0;
+  margin: 0 10px 20px 0;
   position: relative;
 }    
 .Products-item--info {
@@ -222,6 +224,8 @@ a {
   transition: 450ms -webkit-transform;
   transition: 450ms transform;
   transition: 450ms transform, 450ms -webkit-transform;
+  font-size: 0;
+  white-space: nowrap;
   margin: 70px 0px;
   padding-bottom: 10px;
 }
@@ -241,8 +245,8 @@ a {
 .news-item {
   /* width: 200px;
   height: 250px; */
-  width: 320px;
-  height: 240px;
+  width: 430px;
+  height: 280px;
   border-radius: 20px;
   overflow: hidden;
   margin-right: 10px;
@@ -306,8 +310,8 @@ a {
 }
 
 video {
-  width: 320px;
-  height: 210px;
+  width: 430px;
+  height: 280px;
   border: 1px solid black;
   padding: 0;
   margin: 0;
