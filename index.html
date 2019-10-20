@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kuru Music</title>
   <link rel="stylesheet" href="./src/assets/styles/components/Header.css">
+  <link rel="stylesheet" href="./src/assets/styles/components/Index.css">
+  <link rel="stylesheet" href="./src/assets/styles/components/Footer.css">
 </head>
 <body>
   <header class="header">
@@ -21,12 +23,17 @@
       </div>
     </div>
     <ul class="header__content__menu">
-      <li class="header__content__menu-item">Eventos</li>
+      <li class="header__content__menu-item"> <a href="http://127.0.0.1:5500/category.html">Eventos</a> </li>
+        <ul>
+          <li>clasica</li>
+          <li>Rock</li>
+        </ul>
       <li class="header__content__menu-item">Música</li>
       <li class="header__content__menu-item">Tienda</li>
       <li class="header__content__menu-item">Contact</li>
     </ul>
   </header>
+
   <div class="container">
     
     <section class="news">
@@ -151,28 +158,17 @@
     <div class="category">
       <article class="Card">
         <img src="./src/assets/static/events.jpg" />
-        <h2>Eventos<span> Aire Libre </span></h2>
+        <h2>Eventos</h2>
       </article>   
       <article class="Card">
         <img src="./src/assets/static/musica.jpg" />
-        <h2>Música<span> Instrumental </span></h2>
+        <h2>Música</h2>
       </article>   
       <article class="Card">
         <img src="./src/assets/static/moda.jpg" />
-        <h2>Tienda<span> Ropa </span></h2>
+        <h2>Tienda</h2>
       </article>   
-      <article class="Card">
-        <img src="./src/assets/static/categoria1.jpeg" />
-        <h2>Eventos<span> Aire Libre </span></h2>
-      </article>   
-      <article class="Card">
-        <img src="./src/assets/static/categoria2.jpeg" />
-        <h2>Música<span> Instrumental </span></h2>
-      </article>   
-      <article class="Card">
-        <img src="./src/assets/static/categoria3.jpeg" />
-        <h2>Tienda<span> Ropa </span></h2>
-      </article>  
+      
     </div>
 
     <h1>Offers </h1>
@@ -202,91 +198,88 @@
               25
             </span>
           </h2>
-          <p>Camiseta Platzi Conf 2019</p>
+          <p>Camiseta ideas</p>
         </div>
         <button type="button" onClick="Comprar">Comprar</button>
       </div>
   
       <div class="Products-item" >
-        <img src="./src/assets/static/products/DISCOS.jpg"  alt="Camiseta"" />
+        <img src="./src/assets/static/products/DISCOS.jpg"  alt="Discografia"" />
         <div class="Products-item-info">
           <h2>
-            Camiseta
+            Discos
             <span>
               $
               25
             </span>
           </h2>
-          <p>Camiseta Platzi Conf 2019</p>
+          <p>Discos Reggue Music</p>
         </div>
         <button type="button" onClick="Comprar">Comprar</button>
       </div>
 
       <div class="Products-item" >
-        <img src="./src/assets/static/products/GORRAS.jpg"  alt="Camiseta"" />
+        <img src="./src/assets/static/products/GORRAS.jpg"  alt="Gorras"" />
         <div class="Products-item-info">
           <h2>
-            Camiseta
+            Gorras
             <span>
-              $
-              25
+              $25.000
             </span>
           </h2>
-          <p>Camiseta Platzi Conf 2019</p>
+          <p>Gorras Logo</p>
         </div>
         <button type="button" onClick="Comprar">Comprar</button>
       </div>
 
       <div class="Products-item" >
-        <img src="./src/assets/static/products/MUGS.jpg"  alt="Camiseta"" />
+        <img src="./src/assets/static/products/MUGS.jpg"  alt="Mug"" />
         <div class="Products-item-info">
           <h2>
-            Camiseta
+            Mugs
             <span>
-              $
-              25
+              $15.000
             </span>
           </h2>
-          <p>Camiseta Platzi Conf 2019</p>
+          <p>Promociona tu Marca</p>
         </div>
         <button type="button" onClick="Comprar">Comprar</button>
       </div>
   
       <div class="Products-item" >
-        <img src="./src/assets/static/products/TENIS.jpg"  alt="Camiseta"" />
+        <img src="./src/assets/static/products/TENIS.jpg"  alt="Tennis"" />
         <div class="Products-item-info">
           <h2>
-            Camiseta
+            Tennis Fashion
             <span>
-              $
-              25
+              $250.000
             </span>
           </h2>
-          <p>Camiseta Platzi Conf 2019</p>
+          <p>Music Fashion</p>
         </div>
         <button type="button" onClick="Comprar">Comprar</button>
       </div>
       
       <div class="Products-item" >
-        <img src="./src/assets/static/products/VINILO.jpg"  alt="Camiseta"" />
+        <img src="./src/assets/static/products/VINILO.jpg"  alt="Acetato" />
         <div class="Products-item-info">
           <h2>
-            Camiseta
+            Acetato
             <span>
-              $
-              25
+              $45.000
             </span>
           </h2>
-          <p>Camiseta Platzi Conf 2019</p>
+          <p>Clasic</p>
         </div>
         <button type="button" onClick="Comprar">Comprar</button>
       </div>
   </div>
+  </div>
 
   <footer class="footer">
-      <a href="#">Términos de Uso</a>
-      <a href="#">Declaración de Privacidad</a>
-      <a href="#">Centro de Ayuda</a>
-    </footer>  
+    <a href="#">Términos de Uso</a>
+    <a href="#">Declaración de Privacidad</a>
+    <a href="#">Centro de Ayuda</a>
+  </footer>  
 </body>
 </html>
