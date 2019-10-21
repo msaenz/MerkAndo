@@ -1,0 +1,64 @@
+.container_producto{
+    display: grid;
+    grid-template-columns: 15% 65% 20%;
+    grid-template-rows: 100px 450px 180px 300px;
+    grid-template-areas: 
+    ". title title"
+    "navega Img-producto precio"
+    "navega carrucel precio"
+    "navega detalles .";  
+   
+}
+.item-title_pruducto {
+    grid-area: title;
+    /* background-color: rgb(12, 13, 14); */
+    align-self: center;
+}
+.item-navegacion {
+    grid-area: navega;
+    justify-self: center;
+}
+.item-Img-producto {
+    grid-area: Img-producto;
+    justify-self: center;
+}
+.item-precio-producto {
+    grid-area: precio;
+}
+.item-Img-detalles {
+    grid-area: carrucel;  
+     
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: 180px;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    "img-1 img-2 img-3 img-4 img-4";     
+}
+.item-detalles-producto {
+    grid-area: detalles;
+}
+.carousel-item-1 {
+    grid-area: img-1;
+    
+}
+.carousel-item-2 {
+    grid-area: img-2;
+    
+}
+.carousel-item-3 {
+    grid-area: img-3;
+    
+}
+.carousel-item-4 {
+    grid-area: img-4;
+    
+}
+
+
+.carousel-item__img{
+    /* display: flex; */
+    width: 120px;
+    height: 180px;
+}
